@@ -4,9 +4,9 @@ import { Injectable } from '@nestjs/common';
 export class AppService {
   homeRoute(): string {
     return `
-    <center>
+    <div style="height:300px;margin-top:300px">
     <h1 align="center">Hello From CS Pro Pokemon App</h1>
-    </center>
+    </div>
     `;
   }
 }
