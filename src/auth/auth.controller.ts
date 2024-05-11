@@ -21,6 +21,7 @@ export class AuthController {
     private readonly creditsService: CreditsService,
   ) {}
 
+  
   @Put('register')
   async register(
     @Body('username') username: string,
