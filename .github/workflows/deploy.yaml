@@ -35,7 +35,7 @@ jobs:
             git pull origin development
             npm run build   
             sudo systemctl restart nginx  # Restart nginx server
-            pm2 restart plane-dev   # restart pm2
+            pm2 restart cs-pokemon-dev   # restart pm2
    
 
 
